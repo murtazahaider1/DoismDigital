@@ -1,16 +1,18 @@
 import React from 'react';
-import logo from './doismlogo.png'; // Ensure the path is correct
+import Navbar from './components/Navbar';
+import Header from './components/Header';
+import Footer from './components/Footer';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h1>DOiSM Digital</h1>
-        <p>Your trusted digital marketing partner.</p>
+      <Navbar />
+      <Header />
+      <main className="App-main">
         <p>We specialize in SEO, SEM, Content Marketing, and more!</p>
-      </header>
+      </main>
+      <Footer />
     </div>
   );
 }
