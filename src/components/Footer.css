@@ -3,8 +3,19 @@
     color: white;
     text-align: center;
     padding: 20px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+  }
+  
+  .Footer-contact {
+    margin-bottom: 20px;
+  }
+  
+  .Footer-contact h2 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+  }
+  
+  .Footer-contact p {
+    font-size: 1rem;
+    margin: 5px 0;
   }
   
