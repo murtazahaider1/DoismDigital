@@ -1,0 +1,29 @@
+.Portfolio {
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .Portfolio h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  .Portfolio-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .Portfolio-gallery img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s;
+  }
+  
+  .Portfolio-gallery img:hover {
+    transform: scale(1.05);
+  }
+  
