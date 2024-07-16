@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <Header />
       <main className="App-main">
-        <p>We specialize in SEO, SEM, Content Marketing, and more!</p>
+        <p>We offer complete Digital Marketing Solutions, ranging from SEO, SEM, Web Development, and more!</p>
       </main>
       <Footer />
     </div>
